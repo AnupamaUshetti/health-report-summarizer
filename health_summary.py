@@ -20,3 +20,5 @@ response = client.chat.completions.create(
     ]
 )
 
+print("AI Generated Summary")
+print(response['choices'][0]['message']['content'])
